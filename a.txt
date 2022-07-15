@@ -1,2 +1,23 @@
 hilloworld
 hlelp
+
+
+Apache Spark is a fast and general purpose cluster computing system. It provides high level API's in Scala, Java & Pyhton that makes parallel jobs easy to write, and an optimized engine that supports general computation graphs. It also supports a rich set of higher level tools including Shark(Hive on Spark), MLlib for machine learning, GrphX for graph processing and Spark Streaming.
+Why Spark? - Huge Data, standalone systems may have upto 64GB, so it can upload less then this size. So these such preprocessing of high size data can be done on distributed systems. Here comes into picture the Apache Spark.
+PySpark - An Spark API library in Python(others are also available like Java, Scala, R)
+Spark Embelem - MLLib library for machine learning
+Spark in Cloud
+
+Advantages
+•	Speed - Bigdata has map reduce. However Spark is even 100 times faster.
+•	Ease of use - multi language.
+•	Generality - Combine SQL, streaming and complex analytics(emblem ml libraries)
+•	Runs Everywhere - Spark runs on hadoop, kubernetes, standalone, cloud(aws, databricks). It can access diverse data sources. It runs in cluster mode/distributed mode.
+
+Installation
+!pip install pyspark
+import pyspark
+Basic Functions
+Read CSV with Pandas
+pandas_df = pd.read_csv("Data.csv")
+pandas_df 
